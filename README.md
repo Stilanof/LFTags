@@ -10,10 +10,10 @@ El objetivo de este proyecto es disminuir el tiempo y los procesos manuales invo
 </ol>
 
 ### Estructura Solución 📂 
-<ol>
+<u>
  <li>│ </li>
  <li>├── LFtags</li>
  <li>│   ├── requirements.txt (librerias requeridas para ejecutar el programa "LFTag_form")</li>
  <li>│   ├── LFTag_form.py</li>
  <li>│   ├── LFTag_project.pdf</li>
-</ol>
+</u>
