@@ -1,4 +1,4 @@
-## [image](https://user-images.githubusercontent.com/94500658/236706001-26cb0b4d-2bfa-431c-a237-a139628c649e.png)
+## IMPLEMENTACIÓN AUTOMATIZADA DE LFTAGS AWS
 
 ### Objetivo 🎯
 El objetivo de este proyecto es disminuir el tiempo y los procesos manuales involucrados en la implementación de la estrategia de control de acceso con Lake Formation Tags (LFTags) en la nube para una importante plataforma financiera del país.  
