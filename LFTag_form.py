@@ -53,7 +53,7 @@ def exportar_respuestas(respuestas):
         tag=prefix+nombre_tag
         valores_tag = respuestas[4]
         #valores_tag = valores_tag.split(",")
-        valores_tag =set([elem.strip().replace("'", '"') for elem in valores_tag[0].split(",")])
+        valores_tag =set([elem.strip().replace("'", '"') for elem in valores_tag.split(",")])
         print(valores_tag)
         
         print(valores_tag)

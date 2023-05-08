@@ -1,1 +1,1 @@
-["sutilan", "Creación", "tec", "nuevo", "1,2,3", ""]
+["sutilan", "Creación", "tec", "nuevos", "d,s,d", ""]
