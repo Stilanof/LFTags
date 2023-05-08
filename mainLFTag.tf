@@ -10,11 +10,9 @@ provider "aws" {
   region                   = "us-east-1"
 }
 
- 
 
-        
 resource "aws_lakeformation_lf_tag" "segclave" {
 key = "segclave"
-values = valor, s
+values = [1,2,3]
 }
         
