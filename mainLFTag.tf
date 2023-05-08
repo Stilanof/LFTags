@@ -17,6 +17,6 @@ values = "['ENSAYO']"
         
 resource "aws_lakeformation_lf_tag" "segnueva" {
 key = "segnueva"
-values = "['1', '2', '3']"
+values = ['1', '2', '3']
 }
         
