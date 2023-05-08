@@ -16,3 +16,8 @@ key = "tecjn"
 values = ["kp"]
 }
         
+resource "aws_lakeformation_lf_tag" "tecnuevo" {
+key = "tecnuevo"
+values = {'1'}
+}
+        

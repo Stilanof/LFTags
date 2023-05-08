@@ -52,9 +52,10 @@ def exportar_respuestas(respuestas):
         nombre_tag = respuestas[3]
         tag=prefix+nombre_tag
         valores_tag = respuestas[4]
-        valores_tag = valores_tag.split(",")
+        #valores_tag = valores_tag.split(",")
+        valores_tag =set([elem.strip().replace("'", '"') for elem in valores_tag[0].split(",")])
         print(valores_tag)
-        valores_tag = [f'"{elem}"' for elem in valores_tag]
+        
         print(valores_tag)
         resource_type= "aws_lakeformation_lf_tag"
         # definir plantilla del recurso
