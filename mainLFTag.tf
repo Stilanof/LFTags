@@ -16,3 +16,8 @@ key = "segclave"
 values = [1,2,3]
 }
         
+resource "aws_lakeformation_lf_tag" "tecensayo" {
+key = "tecensayo"
+values = [1,2]
+}
+        
