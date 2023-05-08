@@ -51,7 +51,7 @@ def exportar_respuestas(respuestas):
         prefix = respuestas[2]
         nombre_tag = respuestas[3]
         tag=prefix+nombre_tag
-        valores_tag = respuestas[4]
+        valores_tag = respuestas[4] 
         print(valores_tag)
         #valores_tag = valores_tag.split(",")
         #print(valores_tag)

@@ -1,1 +1,1 @@
-["cristiam", "Creación", "tec", "ensayo", "1,2", ""]
+["sutilan", "Creación", "tec", "AUTO", "1,2", ""]

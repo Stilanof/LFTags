@@ -11,13 +11,9 @@ provider "aws" {
 }
 
 
-resource "aws_lakeformation_lf_tag" "segclave" {
-key = "segclave"
-values = [1,2,3]
-}
-        
-resource "aws_lakeformation_lf_tag" "tecensayo" {
-key = "tecensayo"
+      
+resource "aws_lakeformation_lf_tag" "tecAUTO" {
+key = "tecAUTO"
 values = [1,2]
 }
         
