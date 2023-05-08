@@ -61,7 +61,7 @@ def exportar_respuestas(respuestas):
         resource_template = """
 resource "{3}" "{0}" {{
 key = "{1}"
-values = {2}
+values = [{2}]
 }}
         """.format(tag, tag, valores_tag, resource_type)
         # verificar si el recurso ya existe

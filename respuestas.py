@@ -1,1 +1,1 @@
-["sutilan", "Creación", "seg", "clave", "valor, s", ""]
+["", "Creación", "seg", "clave", "val, 1", ""]
