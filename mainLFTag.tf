@@ -13,6 +13,6 @@ provider "aws" {
  
 resource "aws_lakeformation_lf_tag" "tecjn" {
 key = "tecjn"
-values = ['"kp"']
+values = ["kp"]
 }
         
