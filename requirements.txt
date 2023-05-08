@@ -1,4 +1,5 @@
 terrascript
 ttkbootstrap
+gitpython
 #tkinter
 #json

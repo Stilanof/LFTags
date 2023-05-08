@@ -2,6 +2,7 @@ import tkinter as tk
 from tkinter import messagebox
 import json 
 from ttkbootstrap import Style,ttk
+import git
 
 
 # Configuración del proveedor
@@ -30,7 +31,15 @@ def enviar_formulario():
     # cerrar ventana del formulario
     ventana.destroy()
     exportar_respuestas(respuestas)
+    push(respuestas)
     print(respuestas)
+
+def push(respuestas):
+    repo = git.Repo('C:\\Users\\susana.tilano.flores\\Desktop\\proyecto_practica\\LFTags-1') 
+    repo.git.add('.')
+    repo.git.commit('-m', 'Commit automático'+respuestas[0]) 
+    origin = repo.remote(name='origin')
+    origin.push()
 
 def exportar_respuestas(respuestas):
     with open("respuestas.py", "w", encoding="utf-8") as f:
@@ -314,7 +323,7 @@ boton_avanzar = tk.Button(seccion1, text="Siguiente",font=("Arial"), command=env
 seccion2 = tk.Frame(ventana)
 #Pregunta3.1
 etiqueta= tk.Label(seccion2, text="Tipo de etiqueta a crear",font=("Arial", 14)).pack()
-tipo_etiqueta=['bus', 'Seguridad','Técnicas']
+tipo_etiqueta=['bus', 'seg','tec']
 etiqueta = tk.StringVar()
 elegir_etiqueta = tk.OptionMenu(seccion2, etiqueta, *tipo_etiqueta).pack()
 #Pregunta3.2
