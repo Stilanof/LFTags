@@ -17,3 +17,8 @@ key = "tecAUTO"
 values = [1,2]
 }
         
+resource "aws_lakeformation_lf_tag" "segauto" {
+key = "segauto"
+values = [1,2,3]
+}
+        

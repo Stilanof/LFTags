@@ -11,7 +11,8 @@ import git
 
 # Crear la ventana principal
 ventana = tk.Tk()
-style = Style(theme='vapor')
+#vapor
+style = Style(theme='solar')
 ventana.title("IMPLEMENTACIÓN AUTOMATIZADA DE LFTAGS AWS")
 # obtener el ancho y alto de la pantalla
 screen_width = ventana.winfo_screenwidth()
