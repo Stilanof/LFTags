@@ -1,1 +1,1 @@
-["", "Creación", "seg", "m", "c,s,s", ""]
+["", "Creación", "tec", "m", "c,s,s", ""]

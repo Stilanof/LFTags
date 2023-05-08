@@ -36,3 +36,8 @@ key = "segm"
 values = {'s', 'c'}
 }
         
+resource "aws_lakeformation_lf_tag" "tecm" {
+key = "tecm"
+values = {'c', 's'}
+}
+        
