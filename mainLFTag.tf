@@ -11,33 +11,10 @@ provider "aws" {
 }
 
  
-resource "aws_lakeformation_lf_tag" "tecjn" {
-key = "tecjn"
-values = ["kp"]
-}
+
         
-resource "aws_lakeformation_lf_tag" "tecnuevo" {
-key = "tecnuevo"
-values = {'1'}
-}
-        
-resource "aws_lakeformation_lf_tag" "tecnuevos" {
-key = "tecnuevos"
-values = {'s', 'd'}
-}
-        
-resource "aws_lakeformation_lf_tag" "segj" {
-key = "segj"
-values = {'m'}
-}
-        
-resource "aws_lakeformation_lf_tag" "segm" {
-key = "segm"
-values = {'s', 'c'}
-}
-        
-resource "aws_lakeformation_lf_tag" "tecm" {
-key = "tecm"
-values = {'c', 's'}
+resource "aws_lakeformation_lf_tag" "segclave" {
+key = "segclave"
+values = valor, s
 }
         
