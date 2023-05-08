@@ -43,7 +43,7 @@ def push(respuestas):
 
 def exportar_respuestas(respuestas):
     with open("respuestas.py", "w", encoding="utf-8") as f:
-        json.dump(respuestas, f, ensure_ascii=False)
+       json.dump(respuestas, f, ensure_ascii=False)
 
     #RECURSOS-TERRAFORM
     if respuestas[1] == "Creación":
@@ -53,12 +53,13 @@ def exportar_respuestas(respuestas):
         tag=prefix+nombre_tag
         valores_tag = respuestas[4]
         valores_tag = valores_tag.split(",")
+        valores_tag  = [s.replace("'",'"') for s in valores_tag ]
         resource_type= "aws_lakeformation_lf_tag"
         # definir plantilla del recurso
         resource_template = """
 resource "{3}" "{0}" {{
 key = "{1}"
-values = "{2}"
+values = {2}
 }}
         """.format(tag, tag, valores_tag, resource_type)
         # verificar si el recurso ya existe

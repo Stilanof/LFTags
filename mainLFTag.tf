@@ -10,13 +10,9 @@ provider "aws" {
   region                   = "us-east-1"
 }
 
-resource "aws_lakeformation_lf_tag" "segAUTO" {
-key = "segAUTO"
-values = "['ENSAYO']"
-}
-        
-resource "aws_lakeformation_lf_tag" "segnueva" {
-key = "segnueva"
-values = ['1', '2', '3']
+    
+resource "aws_lakeformation_lf_tag" "tecauto" {
+key = "tecauto"
+values = ['ensayo', '1']
 }
         
