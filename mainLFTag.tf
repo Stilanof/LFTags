@@ -26,3 +26,8 @@ key = "tecnuevos"
 values = {'s', 'd'}
 }
         
+resource "aws_lakeformation_lf_tag" "segj" {
+key = "segj"
+values = {'m'}
+}
+        
